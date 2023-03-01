@@ -3,7 +3,7 @@
 # Create a tuple named pokemon that holds the strings 'picachu', 'charmander', and 'bulbasaur'.
 pokemon = ('picachu', 'charmander', 'bulbasaur')
 
-# Using index notation, print() the string that located at index 1 in pokemon
+# Using index notation, print the string that located at index 1 in pokemon
 print(pokemon[1])
 
 # Unpack the values of pokemon into three new variables with names starter1, starter2, starter3. Print each variable using print() to verify.
