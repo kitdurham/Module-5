@@ -1,18 +1,18 @@
-# HOMEWORK MODULE 5
+# HOMEWORK MODULE 5 PART 1
 
-# Create a tuple named pokemon with the three strings as its elements 
+# Create a tuple named pokemon that holds the strings 'picachu', 'charmander', and 'bulbasaur'.
 pokemon = ('picachu', 'charmander', 'bulbasaur')
 
 # Using index notation, print() the string that located at index 1 in pokemon
 print(pokemon[1])  # prints 'charmander'
 
-# Unpack the values of pokemon into three new variables with names starter1, starter2, starter3. Print each variable using the print() function to verify the unpacking.
+# Unpack the values of pokemon into three new variables with names starter1, starter2, starter3. Print each variable using print() to verify.
 starter1, starter2, starter3 = pokemon
 print(starter1) 
 print(starter2) 
 print(starter3) 
 
-# Create a tuple using the tuple() built-in that contains the letters of your name. Print each character using the print() function to verify
+# Create a tuple using the tuple() built-in that contains the letters of your name. Print each character using print() to verify
 name_tuple = tuple('Sian')
 print(name_tuple)
 
